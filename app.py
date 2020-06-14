@@ -10,6 +10,24 @@ from email.message import EmailMessage
 app = Flask(__name__)
 
 
+news = {
+    2: {
+        'title' : 'Starting BunnyBlog on Heroku',
+        'content' : 'We are starting server for BunnyBlog, congrats...... '
+    },
+
+    1: {
+        'title': 'Finished Development',
+        'content': 'All major developments for BunnyBlog is done , version 1.01 to be released soon......'
+    },
+
+    0: {
+        'title': 'Starting bunnyblog development',
+        'content': 'The BunnyBlog development is started....'
+    }
+
+}
+
 @app.route('/')
 def home():
   return render_template('home.jinja2')
@@ -349,8 +367,7 @@ def about():
 
 
 if __name__ == "__main__":
-    app.run(debug =True)
-    app.config['SECRET_KEY'] = "long long secret key"
-
-
+    	app.secret_key = os.urandom(24)
+  	app.config['SESSION_TYPE'] = 'filesystem'
+  	app.run(debug=True)
 
