@@ -17,6 +17,8 @@ body{
     color: black;
     margin: 0px 0px 0px 60px;
     border-radius: 0px 100px 0px 100px;
+    -moz-border-radius: 0px 100px 0px 100px;
+    -webkit-border-radius: 0px 100px 0px 100px;
     text-align: center;
     font-size: 60px;
     font-family: Jokerman;
@@ -50,8 +52,8 @@ body{
 
 #usersignout{
      border-radius: 0px 15px 0px 15px;
-    -moz-border-radius: ;
-    -webkit-border-radius: ;
+    -moz-border-radius: 0px 15px 0px 15px;
+    -webkit-border-radius: 0px 15px 0px 15px;
     background-color: black;
     color: black;
     font-size: 25px;
@@ -83,6 +85,8 @@ body{
     border: 0px 0px 5px solid black;
     background-color: black;
     border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
     opacity: 80%;
     background: url("textures/vegetation.jpg")
 
@@ -100,6 +104,8 @@ body{
 	filter: brightness(100%);
 	text-decoration: none;
 	border-radius : 15px;
+	-moz-border-radius : 15px;
+	-webkit-border-radius : 15px;
 
 
 }
@@ -128,6 +134,8 @@ body{
     width: 1200px;
     background-color: black;
     border-radius: 0px 50px 0px 50px;
+    -moz-border-radius: 0px 50px 0px 50px;
+    -webkit-border-radius: 0px 50px 0px 50px;
     opacity: 90%;
     padding: 10px;
 }
@@ -160,6 +168,8 @@ body{
     font-family: Comic Sans MS;
     padding: 5px;
     border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
     border: 1px solid white;
     background-color: grey;
 
@@ -175,6 +185,8 @@ body{
     text-decoration: none;
     background-color: white;
     border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
     opacity: 95%;
 
 
@@ -214,6 +226,8 @@ body{
     margin: 10px;
     border: 1px solid black;
     border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
     background-color: black;
 
 }
@@ -232,6 +246,8 @@ body{
     font-size: 20px;
     font-family: Comic Sans MS;
     border-radius: 0px 10px;
+    -moz-border-radius: 0px 10px;
+    -webkit-border-radius: 0px 10px;
 }
 
 #blogsformcontentinput{
@@ -241,6 +257,8 @@ body{
     font-size: 23px;
     font-family: Comic Sans MS;
     border-radius: 0px 10px;
+    -moz-border-radius: 0px 10px;
+    -webkit-border-radius: 0px 10px;
 
 }
 
@@ -270,6 +288,8 @@ body{
     font-family: Comic Sans MS;
     margin: 0px 0px 10px 250px;
     border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 
 
 }
@@ -289,6 +309,8 @@ body{
     font-size: 20px;
     font-family: Jokerman;
     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 
 #searchbutton:hover{

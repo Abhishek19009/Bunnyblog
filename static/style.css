@@ -1,3 +1,14 @@
+@font-face{
+    font-family: Chiller;
+    src: url("CHILLER.ttf");
+    font-family: Jokerman;
+    src: url("Jokerman-Regular.ttf");
+    font-family: Comic Sans MS;
+    src: url("ComicSansMS3.ttf")
+
+
+}
+
 #menu{
     height : 30px;
     color : white;
