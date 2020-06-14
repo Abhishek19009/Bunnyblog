@@ -1,0 +1,61 @@
+{% extends 'base.jinja2' %}
+
+{% block content %}
+<div id = "home">
+<div id = "menu">
+<table id = "menutable">
+<tr id = "menurow">
+<td> <a href = {{url_for('signin')}} id = "signin"> Sign-In </a> </td>
+<td> <a href = {{url_for('register')}} id = "register"> Register </a> </td>
+<td> <a href = {{url_for('newsblock')}} id = "news"> News </td>
+<td> <a href = {{url_for('blog_of_day')}} id = "blog_of_day"> Blog Of Day </a></td>
+<td> <a href = {{url_for('instructions')}} id = "instructions"> Instructions </a></td>
+</tr>
+</table>
+</div>
+
+<div id = "intro">
+<p id = "welcome"> Welcome To </p>
+<table id = "introtable">
+<tr>
+<td id = "bunny"><img src = {{url_for('static', filename = 'imagesrc/bunny2.png')}} id = "bunnyimage"/></td>
+<td id = "first"><h2> BunnyBlog </h2></td>
+</tr>
+</table>
+<p id = "des"> A family blogging app </p>
+</div>
+
+<div id = "customize">
+<p id = "customhead"> <h2> Customization </h2></p>
+<p id = "customcontent"> Write, Share and Customize your ideas with BunnyBlog.......... </p>
+</div>
+
+<div id = "jotdown">
+<p id = "jothead"> <h2> Memory-Book </h2> </p>
+<p id = "jotcontent">  Jot down your memories in our wonderful platform.......... </p>
+</div>
+
+<div id = "blogofday">
+<p id = "bloghead"> <h2> Blog Of The Day </h2></p>
+<p id = "blogcontent"> Write passionately and your blog will become "Blog of the Day".......... </p>
+</div>
+
+<div id = "getstarted">
+<p id = "getstartedhead"> <h2> Get Started </h2> </p>
+<p id = "getstartedcontent"> Sign-In to get started............ </p>
+</div>
+
+<div id = "finalinfo">
+<h2 id = "finalinfoheading"> Info </h2>
+<hr color = "white"/>
+<ul id = "finalinfolist">
+<li><a href = {{url_for('help')}} id = "help"> Help </a></li>
+<li><a href = {{url_for('contact')}} id = "contact"> Contact Us </a></li>
+<li><a href = {{url_for('privacypolicy')}} id = "privacypolicy"> Privacy Policy </a></li>
+<li><a href = {{url_for('termsofservice')}} id = "termsofservice"> Terms Of Service </a></li>
+<li><a href = {{url_for('about')}} id = "about"> About Us</a></li>
+</ul>
+
+</div>
+{% endblock %}
+

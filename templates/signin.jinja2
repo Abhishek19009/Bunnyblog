@@ -1,0 +1,18 @@
+{% extends 'base.jinja2' %}
+
+{% block content %}
+
+<div id = "signinpagetexture">
+<form id = "signinpageform" action= '/signindata' method='POST'>
+<p id= "signinpagesignin"> Sign-In </p>
+<label>Username:<br/>
+<input type="text" name="username" id = "signininput" required = "required"></label><br/>
+<label>Password:<br/>
+<input type="password" name="password"  id = "signininput" required = "required"></label><br/><br/>
+<input type= "submit" id = "submit" value = "Sign-In"/></br></br>
+<p id = "signinhelp"><a href= {{url_for('help')}} id= "signinhelp"> Help </a></p>
+<p id = "signinforget"><a href= {{url_for('forgetpass')}} id= "signinforget"> Forget Password </a></p>
+</form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'base.jinja2' %}
+
+{% block content %}
+
+<div id = "helppagetexture">
+<form id = "helppageform" method='POST'>
+<p id= "helppageheading"> Help and Discord </p>
+<p id= "helppagedescription"> Submit your issue or feedback, we will be glad to help you..........</p></br></br>
+<label id = "querytitlemail">Enter your Email:
+<input type="email" name="querymail" id="querymail" required = "required"/></label></br></br>
+<label id = "querytitlelabel">Title of query:</br>
+<input type="text" name="querytitle" id = "querytitle" required = "required"/></label></br></br>
+<label id = "querycontentlabel">Query description:</br>
+<textarea name="querycontent"  id = "querycontent" required = "required"></textarea></label></br></br>
+<input type= "submit" id = "submit" value = "Send mail"/></br></br>
+</form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,178 @@
+#menu{
+    height : 30px;
+    color : white;
+    padding : 20px;
+    float: right;
+}
+
+#menutable{
+    margin : 0 auto;
+}
+
+
+#signin, #register, #news, #blog_of_day, #instructions{
+    color: white;
+	font-size: 187.5%;
+	font-family : Chiller;
+	padding : 2px 20px 0px 10px;
+	float : left;
+	text-shadow :  2px 2px 7px;
+}
+#signin:hover, #register:hover, #news:hover, #blog_of_day:hover, #instructions:hover{
+    color: grey;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 7px;
+
+}
+
+a:hover{
+    color : grey;
+}
+
+#intro{
+    height : 660px;
+	background: black;
+	background-image: url("textures/homeheading.png");
+	}
+
+
+#welcome{
+	margin: auto;
+	text-align : center;
+	padding : 15px 0px 10px 0px;
+	font-family : Chiller;
+	color : white;
+	font-size : 437.5%;
+
+}
+
+#introtable{
+	margin: 0 auto;
+	font-size : 500%;
+	font-family : Jokerman;
+	color : white;
+
+	}
+
+
+#bunny{
+	padding : 0px 0px 0px 40px;
+}
+
+#bunnyimage{
+	width: 100px;
+	height: 100px;
+	}
+
+#first{
+	padding : 0px 0px 10px 40px;
+
+}
+
+#des{
+	margin: auto;
+	text-align : center;
+	padding : 0px 0px 10px 0px;
+	font-family : Chiller;
+	color : white;
+	font-size : 437.5%;
+
+}
+
+#customize{
+    height : 384px;
+    padding : 20px;
+    background-image : url("textures/customize2.jpg");
+    font-size : 60px;
+    color : white;
+    font-family: Jokerman;
+}
+
+#customcontent{
+    padding : 0px 0px 0px 20px;
+    font-family : Chiller;
+    font-size : 45px;
+}
+
+#jotdown{
+    height : 384px;
+    padding : 20px 0px 20px 400px;
+    background-image : url("textures/jotdown.jpg");
+    font-size : 60px;
+    color : white;
+    font-family: Jokerman;
+}
+
+#jotcontent{
+    padding : 0px 0px 0px 20px;
+    font-family : Chiller;
+    font-size : 45px;
+}
+
+#blogofday{
+    height : 384px;
+    padding : 20px;
+    background-image : url("textures/dan-wayman-x5w378iM3hc-unsplash.jpg");
+    font-size : 60px;
+    color : white;
+    font-family: Jokerman;
+}
+
+#blogcontent{
+    padding : 0px 0px 0px 20px;
+    font-family : Chiller;
+    font-size : 45px;
+}
+
+#getstarted{
+    height : 384px;
+    padding : 20px 0px 20px 400px;
+    background-image : url("textures/signin.jpg");
+    font-size : 60px;
+    color : white;
+    font-family: Jokerman;
+}
+
+#getstartedcontent{
+    padding : 0px 0px 0px 20px;
+    font-family : Chiller;
+    font-size : 45px;
+}
+
+#finalinfo{
+    height : 350px;
+    padding : 30px;
+    background : rgb(33.9, 28.2, 28.2);
+    color : white;
+    font-family : Jokerman;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#finalinfolist{
+    list-style-type: none;
+    padding: 2px;
+    font-family : Chiller;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+
+/* --------------------------------The homepage styling has been finished ----------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+

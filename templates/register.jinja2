@@ -1,0 +1,16 @@
+{% extends 'base.jinja2' %}
+
+{% block content %}
+<div id = "registerpagetexture">
+<form id = "registerpageform" action= '/registerdata' method='POST'>
+<p id= "registerpagesignup"> Sign-Up </p>
+<label>Email:<br/>
+<input type="email" name="email" id = "registerinput" required = "required"></label><br/>
+<label>Username:<br/>
+<input type="text" name="username" id = "registerinput" required = "required"></label><br/>
+<label>Password:<br/>
+<input type="password" name="password"  id = "registerinput" required = "required"></label><br/><br/>
+<input type= "submit" id = "submit" value = "Register"/>
+</form>
+</div>
+{% endblock %}

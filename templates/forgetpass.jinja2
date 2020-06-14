@@ -1,0 +1,15 @@
+{%  extends 'base.jinja2' %}
+
+{% block content %}
+<div id = "forgetpasspage">
+<form id = "forgetpasspageform" method= 'POST'>
+<p id = "forgetpasshead"> Don't Worry </p>
+<p id= "forgetpassmessage"> We will send you a mail to remind your password.... </p>
+<label>Enter email address:<br/>
+<input type="email" name="resetemail" id = "registerinput" required = "required"></label><br/>
+<input type= "submit" id = "submit" value = "Send mail"/>
+
+</form>
+</div>
+
+{% endblock %}

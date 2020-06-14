@@ -1,0 +1,14 @@
+{% extends 'base.jinja2' %}
+
+{% block content %}
+<div id = "newspage">
+{% for currentnewsid, currentnews in news.items(): %}
+<div id = "newssection">
+<h2 id = "newsheading"> {{ currentnews['title'] }} </h2>
+<p id = "newscontent"> {{ currentnews['content'] }} </p>
+</div>
+</br>
+</br>
+{% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,255 @@
+/* This stylesheet contains styles related to signin, register , news , help, instructions,
+    contact us, privacy policy, terms of service, */
+
+#registerpagetexture{
+background-image : url("textures/paper.jpg");
+padding: 15% 35% 15% 35%;
+text-align: center;
+font-family: Chiller;
+font-size: 35px;
+font-weight: bold;
+}
+
+#registerinput{
+   font-size: 60%;
+color: black ;
+border: 1px solid #bdbdbd;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 6px 5px 5px 30px;
+display: block;
+margin-bottom: 10px;
+}
+
+#registerpagesignup{
+    font-family : Jokerman;
+    text-decoration: underline;
+}
+
+input#submit {
+font-size: 30px;
+font-weight: bold;
+font-family: Chiller;
+color: #444444;
+box-shadow: 0px 0px 10px;
+text-shadow: 0px 1px 1px #ffffff;
+border-bottom: 2px solid #b2b2b2;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+background-color: rgb(242, 242, 242);
+
+}
+
+
+input#submit:hover {
+font-size: 20px;
+color: #333333;
+border: 1px solid #a4a4a4;
+border-top: 2px solid #b2b2b2;
+background-color: #a0dbc4;
+}
+
+
+
+#registerpageform{
+    padding: 0px 60px 40px 60px;
+    border: 2px solid white;
+    color: maroon;
+    background-color: rgb(242, 242, 242);
+    height: 500px;
+    width: 400px;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+    }
+
+#signinpagetexture, #forgetpasspage, #forgetpassmessagepage, #signinerrorpage, #helpinfopage{
+background-image : url("textures/paper.jpg");
+padding: 15% 35% 15% 35%;
+text-align: center;
+font-family: Chiller;
+font-size: 35px;
+font-weight: bold;
+}
+
+#signininput{
+   font-size: 60%;
+color: black ;
+border: 1px solid #bdbdbd;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 6px 5px 5px 30px;
+display: block;
+margin-bottom: 10px;
+}
+
+#signinpagesignin, #forgetpasshead{
+    font-family : Jokerman;
+    text-decoration: underline;
+}
+
+
+#signinhelp, #signinforget{
+font-family: Chiller;
+color: brown;
+font-weight: normal;
+text-decoration: underline;
+font-size: 25px;
+display: inline;
+padding : 30px;
+}
+
+#signinhelp:hover, #signinforget:hover{
+color: grey;
+}
+
+
+#signinpageform, #forgetpasspageform, #forgetpassmessageform, #signinerrorform, #helpinfoform{
+    padding: 0px 70px 40px 70px;
+    border: 2px solid white;
+    color: maroon;
+    background-color: rgb(242, 242, 242);
+    height: auto;
+    width: 400px;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+    }
+
+
+#forgetpassmessageform, #signinerrorform{
+height : 300px;
+width: 300px;
+}
+
+#newspage{
+background-color: maroon;
+height: auto;
+padding: 5% 5% 5% 5%;
+font-size: 35px;
+font-weight: normal;
+}
+
+#newssection{
+background-color: rgb(242, 242, 242);
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+padding: 2px;
+
+}
+
+#newsheading{
+padding: 5px 20px ;
+font-family: Jokerman;
+text-decoration: underline;
+}
+
+#newscontent{
+padding: 10px;
+font-family: Fira Code Retina;
+}
+
+#instructionspage, #privacypolicypage, #termsofservicepage, #contactpage, #aboutpage{
+background-color: black;
+padding: 10px;
+text-align: center;
+color: white;
+text-shadow: 2px 2px 7px;
+font-family: Jokerman;
+font-size: 30px;
+}
+
+
+#instructionspagecontent, #privacypolicypagecontent, #termsofservicepagecontent, #contactpagecontent, #aboutpagecontent{
+font-size: 30px;
+font-family: Fira Code Retina;
+text-shadow: none;
+padding: 10px;
+}
+
+#helppagetexture{
+background-color: black;
+padding : 15% 35% 15% 35%;
+font-family: Chiller;
+font-size: 35px;
+font-weight:bold;
+
+}
+
+#helppageheading{
+font-family: Jokerman;
+text-decoration: underline;
+padding: 0px 0px 0px 70px;
+}
+
+#querytitle, #querymail{
+font-size: 60%;
+color: black ;
+border: 1px solid #bdbdbd;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 6px 5px 5px 30px;
+display: block;
+margin-bottom: 10px;
+}
+
+#querycontent{
+font-size: 60%;
+height: 300px;
+width: 300px;
+color: black ;
+border: 1px solid #bdbdbd;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 6px 5px 5px 30px;
+display: block;
+margin-bottom: 10px;
+}
+
+#helppageform{
+padding: 0px 40px 40px 80px;
+    border: 2px solid white;
+    color: black;
+    background-color: rgb(242, 242, 242);
+    height: auto;
+    width: 500px;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#helpinfopage{
+background: black;
+}
+
+#homepage{
+font-size: 30px;
+font-weight: bold;
+font-family: Chiller;
+color: #444444;
+box-shadow: 0px 0px 10px;
+text-shadow: 0px 1px 1px #ffffff;
+border-bottom: 2px solid #b2b2b2;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+background-color: rgb(242, 242, 242);
+border: 1px solid black;
+}
