@@ -8,7 +8,7 @@ from email.message import EmailMessage
 
 
 app = Flask(__name__)
-app.secret_key = os.environ.get('SECRET_KEY')
+app.secret_key = os.urandom(24)
 
 
 news = {
